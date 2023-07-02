@@ -1,0 +1,268 @@
+* {
+  /* border-top: 5px solid #00a1e4; */
+  margin: 0;
+  padding: 0;
+}
+
+/* PAGE SELECTION */
+
+body {
+  color: black; /*선언되지 않은 모든 색상은 color색상이 적용되었다.*/
+  font-family: sans-serif;
+
+  border-top: 5px solid #00a1e4;
+  position: relative;
+}
+
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+  position: relative;
+}
+
+.main-header {
+  background-color: white;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+/* SMALLER ELEMENTS */
+
+h1 {
+  color: #dc0073;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 35px;
+  color: #f5b700;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #00a1e4;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #f5b700;
+}
+
+p {
+  font-size: 25px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+/*footer p {
+  font-size: 16px;
+}*/
+
+/* article header p {
+  font-style: italic;
+} -> id를 설정해 더욱 간단하게 설정할 수 있다.*/
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 목록 점 제거 */
+/* ul {
+  list-style: none;
+}
+
+.dot {
+  list-style: none;
+} */
+
+.main-header {
+  background-color: #ffff;
+}
+
+nav {
+  font-size: 18px;
+  text-align: center;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+  /*position: relative;*/
+}
+aside {
+  background-color: #f2f4f3;
+  border-top: 5px solid #89fc00;
+  border-bottom: 5px solid #89fc00;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  padding: 50px 0;
+  width: 500px;
+}
+
+body {
+  background-color: #ffff;
+}
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/* li:nth-child(2) {
+  color: #f5b700;
+} */
+
+article p:last-child {
+  color: #8338ec;
+}
+/* first-child로 입력할 경우, 위에 와 같이 입력했지만 웹에는 반응이 없을 것이다. article의 첫번째 자식은 p가 아니라 header이기 때문이다. */
+
+/* Styling links */
+a:link {
+  color: #3a86ff;
+  text-decoration: none; /*밑줄 데코하는거 즉 밑줄 없앨 수 있는거*/
+}
+
+a:visited {
+  color: #f5b700;
+}
+
+a:hover {
+  color: #8338ec;
+  font-weight: bold;
+}
+
+a:active {
+  color: #dc0073;
+  font-style: italic;
+}
+
+.post-img {
+  width: ;
+  height: auto;
+} /*게시물 이미지의 부모는 헤더이다.*/
+
+nav a:link {
+  /* background-color: #fff1e6;
+  margin: 20px; 상하단 여백은 변경되지 않았다. */
+  /* padding: 10px;
+  display: block; */
+
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+button {
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin: 5px;
+}
+
+h3 + p::first-line {
+  /*color: #dc0073;*/
+}
+
+h2 {
+  /* background-color: #00a1e4; */
+  position: relative;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: #00a1e4;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  right: 25px;
+}
+
+/* Resolving conflicts*/
+/* #copyright {
+  color: #3a86ff;
+}
+
+.copyright {
+  color: #f5b700;
+}
+
+.text {
+  color: #8338ec;
+} */
+
+/* footer p {
+  color: #d6ccc2 !important;
+} */
+
+/* nav a:link,
+nav p {
+  font-size: 18px;
+} */
+
+/* s */
