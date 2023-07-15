@@ -81,7 +81,7 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
 
-  /* 배경색을 천천히 바꿈 */
+  /* 배경색을 천천히 바꿈 , 0.3이 일반적이다*/
   transition: background-color 0.3s;
 }
 
@@ -89,6 +89,7 @@ body {
 .btn--full:visited {
   background-color: #e67e22;
   color: #fff;
+  margin-right: 1.6rem;
 }
 
 .btn--full:hover,
@@ -114,4 +115,9 @@ body {
 
 .hero-img {
   width: 100%;
+}
+
+.marign-right-sm {
+  /* improtant를 작성하면 이 기능이 우선순위가 된다. */
+  margin-right: 1.6rem !important;
 }
